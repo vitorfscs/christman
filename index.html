@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100% Christman</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="bg-content">
+
+        <div id="popup-content">
+            <h2>Notificações de plataforma</h2>
+            <P>No dia 1 de dezembro de 2024, a 100% Christman será lançado oficialmente.
+                <br>
+                1. Cadastre-se para receber R$ 5, e faça login diariamente para receber R$ 1.
+                <br>                            
+                2. Altas recompensas por convite 36% 1% 1%
+                <br>                                 
+                3. O depósito mínimo é de R$ 100 e o saque mínimo é de R$ 70.
+                <br>                               
+                4. Não há limite de número e horário de saques diários.
+                <br>
+                5. Invista R$ 60 e ganhe R$ 10 por dia.
+                <br>
+                 Invista R$ 150 e ganhe R$ 30 por dia.</P>
+                 <button id="close-popup">OK</button>
+        </div>
+
+
+
+        <div class="botoes">
+            <br>
+            <br>
+            <H2>100%Christman</H2>
+            <a href="#"><img src="image/1.png"></a> <a href="#"><img src="image/2.png"></a> <a href="#"><img src="image/3.png"></a> <a href="#"><img src="image/5.png"></a>
+            <label>Recarrega</label> <label>Crédito</label> <label>Suporte</label> <label>Produtos</label>
+        </div>
+
+        <div class="presenteprince">
+            <img src="image/presente.jpg">
+        </div>
+
+        <div id="botoesmoney">
+            <img src="image/saldo.png"> <img src="image/renda-diaria.png"> <img src="image/Receita-total.png">
+            <label>Saldo atual: R$  </label>  <label>Renda diaria: R$</label> <label></label> <label>Receita-Total: R$</label>
+        </div>
+
+
+            <div class="invista">
+                <img src="image/propaganda.png">
+            </div>
+
+
+
+    </div>
+
+
+    
+  <script> 
+    $('#popup-content').fadeOut(2000).fadeIn(2000).fadeOut(2000).fadeIn(2000).fadeIn(2000).fadeOut(2000).fadeIn(2000);
+    $(document).ready(function(){
+        $("#close-popup").click(function(){
+            $("#popup-content").hide();
+        })
+    })
+  </script>
+</body>
+</html>

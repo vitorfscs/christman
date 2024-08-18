@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#popup-content{
+    width: 550px;
+    padding: 20px;
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px #ccc;
+    background-color: red;
+    color: white;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 200px;
+}
+
+#close-popup{
+    width: 500px;
+    border-radius: 3px;
+}
+
+
+#bg-content{
+    justify-items: center;
+    align-items: center;
+    display: flexbox;
+    background-image: url('background.jpg');
+    width: 550px;
+    height: 125vh;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botoes h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 10%;
+    color: white;
+}
+.botoes img{
+    width: 40px;
+    height: 40px;
+    margin-left: 77px;
+    margin-top: 12%;
+}
+
+.botoes label{
+    margin-left: 67px;
+    margin-top: 12%;
+    color: white;
+}
+
+.presenteprince img{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+#botoesmoney img{
+    width: 150px;
+    height: 120px;
+    margin-left: 25px;
+    margin-top: 12%;
+    border-radius: 10px;
+    position: relative;
+}
+
+#botoesmoney label{
+    width: 150px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: -20px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+
+.invista img{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+}
